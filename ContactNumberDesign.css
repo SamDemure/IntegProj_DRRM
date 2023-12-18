@@ -76,6 +76,7 @@ nav ul li a:hover {
   border-top: none;
   border-radius: 5px;
   width: 119px;
+  z-index: 2;
 }
 
 .dropdown-content a {

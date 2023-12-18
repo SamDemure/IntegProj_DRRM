@@ -4,12 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <title>SF Emergency Hotline</title>
-    <link rel="stylesheet" href="ContactNumberDesign.css" />
+    <link rel="stylesheet" href="EvacuationCenterDesign.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyDSwWkLRvpSnHm3IMg94Cmk6cD52pQJQ3w&callback=initMap" async
+        defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkRlXkj5gl119R99CUrH1w9qK7V2mnuFE&libraries=places"
+        async defer></script>
+
+    <style>
+        #map {
+            position: relative;
+            z-index: 1;
+            height: 550px; /*height of the map container*/
+            width: 400px; /*width of the map container*/
+            margin-left: 950px;
+            top: -185px;
+            border-radius: 10px;
+            margin-bottom: 0;
+            overflow: hidden;
+        }
+    </style>
+    <title>SF Evacuation Centers</title>
 </head>
 
 <body>
@@ -49,42 +65,33 @@
             </li>
         </ul>
     </nav>
-    <!-- title-->
-    <h1>San Fernando</h1>
-    <h2>Emergency Hotline</h2>
-    <!--contact numbers-->
-    <!--mdrrmo-->
-    <div class="mdrrmcn">
-        <img src="logo.png" alt="MDRRMO">
-        <p class="mdrrmo">Municipal Disaster Risk Reduction Management Office(MDRRM)</p>
-        <p class="mdrrmoNum">09187077897</p>
-    </div>
-    <div class="container">
-        <!--pnp-->
-        <div class="pnpcn">
-            <img src="logo.png" alt="PNP">
-            <p class="pnp">Philippine National Police (PNP)</p>
-            <p class="pnpNum">09985985982</p>
-        </div>
-        <!--bfp-->
-        <div class="bfpcn">
-            <img src="logo.png" alt="BFP">
-            <p class="bfp">Bureau of Fire (BFP)</p>
-            <p class="bfpNum">09985985982</p>
-        </div>
-        <!--Ambulance-->
-        <div class="ambcn">
-            <img src="logo.png" alt="Amb">
-            <p class="amb">San Fernando Ambulance</p>
-            <p class="ambNum">09985985982</p>
-        </div>
-        <!--rhu-->
-        <div class="rhucn">
-            <img src="logo.png" alt="RHU">
-            <p class="rhu">Rural Health Unit (RHU)</p>
-            <p class="rhuNum">09985985982</p>
-        </div>
-    </div>
+    <!--title-->
+    <h1>San Fernando Evacuation Centers</h1>
+    <!--buttons, brgys that have evacuation center-->
+    <!--map-->
+    <div id="map"></div>
+    <script>
+        // Initialize the map
+        function initMap() {
+            const mapOptions = {
+                center: { lat: 13.5300, lng: 123.1127 },
+                zoom: 10,
+            };
+
+            // Create a new map object
+            const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+            // Optionally, add a marker
+            const marker = new google.maps.Marker({
+                position: { lat: 13.5300, lng: 123.1127 },
+                map: map,
+                title: 'San Fernando, Camarines Sur, Philippines'
+            });
+        }
+
+        // Call the initMap function when the page loads
+        window.onload = initMap;
+    </script>
 </body>
 
 </html>
