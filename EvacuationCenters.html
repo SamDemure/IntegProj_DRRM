@@ -16,16 +16,20 @@
         #map {
             position: relative;
             z-index: 1;
-            height: 550px; /*height of the map container*/
-            width: 400px; /*width of the map container*/
-            margin-left: 950px;
-            top: -185px;
+            height: 550px;
+            /*height of the map container*/
+            width: 400px;
+            /*width of the map container*/
+            left: 950px;
+            top: -535px;
             border-radius: 10px;
-            margin-bottom: 0;
+            margin-bottom: 70px;
             overflow: hidden;
+            align-items: flex-start;
         }
     </style>
     <title>SF Evacuation Centers</title>
+
 </head>
 
 <body>
@@ -67,7 +71,24 @@
     </nav>
     <!--title-->
     <h1>San Fernando Evacuation Centers</h1>
-    <!--buttons, brgys that have evacuation center-->
+    <!--buttons of brgys-->
+    <div class="buttons">
+        <div class="button">
+            <a href="#" class="mapbuttons"><img src="bonimg.png">Bonifacio</a>
+            <a href="#" class="mapbuttons"><img src="lupi.png">Lupi</a>
+            <a href="#" class="mapbuttons"><img src="delp.png">Del Pilar</a>
+            <a href="#" class="mapbuttons"><img src="bebe.png">Beberon</a>
+        </div>
+        <div class="buttontwo">
+            <a href="#" class="mapbuttons"><img src="rizimg.png">Rizal</a>
+            <a href="#" class="mapbuttons"><img src="pinimg.png">Pinamasagan</a>
+            <a href="#" class="mapbuttons"><img src="bocimg.png">Bocal</a>
+        </div>
+    </div>
+    <!--note-->
+    <p class="note">Note: Above are the evacuation centers of San Fernando. Not all barangay have evacuation centers. 
+        Go to the nearest evacuation centers depending
+        on your location.</p>
     <!--map-->
     <div id="map"></div>
     <script>
@@ -87,6 +108,7 @@
                 map: map,
                 title: 'San Fernando, Camarines Sur, Philippines'
             });
+
         }
 
         // Call the initMap function when the page loads

@@ -1,170 +1,227 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
 }
+
 /*nav bar*/
 /*logo*/
 .logo {
-    margin-top: 40px;
-    margin-left: 50px;
+  margin-top: 40px;
+  margin-left: 50px;
 }
 
-  nav {
-    position: relative;
-  }
+nav {
+  position: relative;
+}
 
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin-right: 190px;
-    margin-top: -30px;
-    overflow: hidden;
-    float: right;
-  }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 190px;
+  margin-top: -30px;
+  overflow: hidden;
+  float: right;
+}
 
-  nav ul li {
-    float: left;
-    border-bottom: 1px solid black;
-  }
+nav ul li {
+  float: left;
+  border-bottom: 1px solid black;
+}
 
-  nav ul li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: #820000;
-    font-size: 13px;
-  }
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #820000;
+  font-size: 13px;
+}
 
-  nav ul li a:hover {
-    background-color: transparent;
-    font-weight: 600;
-  }
-    .dropdown {
-    display: inline-block;
-  }
+nav ul li a:hover {
+  background-color: transparent;
+  font-weight: 600;
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #D9D9D9;
-    min-width: 160px;
-    border-bottom: 1px solid black;
-    border-top: none;
-    border-radius: 5px;
-    width: 250px;
-    z-index: 2;
-  }
+.dropdown {
+  display: inline-block;
+}
 
-  .dropdown-contenttwo {
-    display: none;
-    position: absolute;
-    background-color: #D9D9D9;
-    min-width: 160px;
-    border-bottom: 1px solid black;
-    border-top: none;
-    border-radius: 5px;
-    width: 145px;
-    z-index: 2;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D9D9D9;
+  min-width: 160px;
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-radius: 5px;
+  width: 250px;
+  z-index: 2;
+}
 
-  .dropdown-contentThree {
-    display: none;
-    position: absolute;
-    background-color: #D9D9D9;
-    min-width: 100px;
-    border-bottom: 1px solid black;
-    border-top: none;
-    border-radius: 5px;
-    width: 119px;
-    z-index: 2;
-  }
+.dropdown-contenttwo {
+  display: none;
+  position: absolute;
+  background-color: #D9D9D9;
+  min-width: 160px;
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-radius: 5px;
+  width: 145px;
+  z-index: 2;
+}
 
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.dropdown-contentThree {
+  display: none;
+  position: absolute;
+  background-color: #D9D9D9;
+  min-width: 100px;
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-radius: 5px;
+  width: 119px;
+  z-index: 2;
+}
 
-  .dropdown-contenttwo a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
-  .dropdown-contentThree a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.dropdown-contenttwo a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
-  .dropdown-content a:hover {
-    background-color: #5B5B5B;
-    color: black;
-    text-decoration: none;
-  }
+.dropdown-contentThree a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
-  .dropdown-contenttwo a:hover {
-    background-color: #5B5B5B;
-    color: black;
-    text-decoration: none;
-  }
+.dropdown-content a:hover {
+  background-color: #5B5B5B;
+  color: black;
+  text-decoration: none;
+}
 
-  .dropdown-contentThree a:hover {
-    background-color: #5B5B5B;
-    color: black;
-    text-decoration: none;
-  }
+.dropdown-contenttwo a:hover {
+  background-color: #5B5B5B;
+  color: black;
+  text-decoration: none;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.dropdown-contentThree a:hover {
+  background-color: #5B5B5B;
+  color: black;
+  text-decoration: none;
+}
 
-  .dropdown:hover .dropdown-contenttwo {
-    display: block;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  .dropdown:hover .dropdown-contentThree {
-    display: block;
-  }
+.dropdown:hover .dropdown-contenttwo {
+  display: block;
+}
 
-  /*red underline*/
-  .dropdown-content::before{
-    content: "";
-    display: block;
-    border-top: 8px solid #820000;
-  }
+.dropdown:hover .dropdown-contentThree {
+  display: block;
+}
 
-  .dropdown-contenttwo::before{
-    content: "";
-    display: block;
-    border-top: 8px solid #820000;
-  }
-  .dropdown-contentThree::before{
-    content: "";
-    display: block;
-    border-top: 8px solid #820000;
-  }
+/*red underline*/
+.dropdown-content::before {
+  content: "";
+  display: block;
+  border-top: 8px solid #820000;
+}
 
-  .no-dropdown:hover{
-    background-color: transparent;
-    border-bottom: 5px solid #820000;
-  }
+.dropdown-contenttwo::before {
+  content: "";
+  display: block;
+  border-top: 8px solid #820000;
+}
 
-  /*title text, san fernando evacuation center*/
-  h1{
-    color: black;
-    margin-left: 100px;
-    width: 750px;
-    white-space: normal;
-    font-size: 64px;
-    margin-bottom: 4s0px;
-  }
+.dropdown-contentThree::before {
+  content: "";
+  display: block;
+  border-top: 8px solid #820000;
+}
 
+.no-dropdown:hover {
+  background-color: transparent;
+  border-bottom: 5px solid #820000;
+}
+
+/*title text, san fernando evacuation center*/
+h1 {
+  color: black;
+  margin-left: 100px;
+  width: 750px;
+  white-space: normal;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+/*buttons of brgys*/
+
+.buttons{
+  display: flex;
+}
+
+.button {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.buttontwo {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-left: 250px;
+}
+
+.button:first-child{
+  margin-right: 40px;
+}
+
+.mapbuttons {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-left: 85px;
+}
+
+.mapbuttons img{
+  width: 30px;
+  margin-right: 10px;
+}
+
+/*note*/
+.note{
+  color: #5B5B5B;
+  font-style: italic;
+  white-space: normal;
+  text-align: left;
+  width: 550px;
+  margin-top: 300px;
+  margin-left: 100px;
+  font-size: 12px;
+}
