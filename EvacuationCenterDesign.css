@@ -173,7 +173,7 @@ h1 {
 
 /*buttons of brgys*/
 
-.buttons{
+.buttons {
   display: flex;
 }
 
@@ -194,7 +194,7 @@ h1 {
   margin-left: 250px;
 }
 
-.button:first-child{
+.button:first-child {
   margin-right: 40px;
 }
 
@@ -209,13 +209,17 @@ h1 {
   margin-left: 85px;
 }
 
-.mapbuttons img{
+.mapbuttons img {
   width: 30px;
   margin-right: 10px;
 }
 
+.map {
+  height: 400px;
+}
+
 /*note*/
-.note{
+.note {
   color: #5B5B5B;
   font-style: italic;
   white-space: normal;
