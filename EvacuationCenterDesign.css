@@ -225,7 +225,36 @@ h1 {
   white-space: normal;
   text-align: left;
   width: 550px;
-  margin-top: 300px;
+  margin-top: 330px;
   margin-left: 100px;
   font-size: 12px;
+}
+
+/*Result - bonifacio*/
+.resultcontainer{
+  background-color: #5B5B5B;
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  margin-left: 880px;
+  margin-top: -190px ;
+}
+/*img of bonifcio evac*/
+.bonevac{
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.bonresultmain{
+  color: white;
+  font-weight: bold;
+  margin-left: 100px;
+  top: 30px;
+}
+
+.bonresultsub{
+
 }
