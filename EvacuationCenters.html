@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="EvacuationCenterDesign.css" />
+    <script src="EvacuationCentersConf.js" defer></script>
     <title>SF Evacuation Centers</title>
 
 </head>
@@ -53,32 +54,151 @@
     <!--buttons of brgys-->
     <div class="buttons">
         <div class="button">
-            <a href="#" class="mapbuttons" data-barangay="Bonifacio"><img src="bonimg.png">Bonifacio</a>
-            <a href="#" class="mapbuttons" data-barangay="Lupi"><img src="lupi.png">Lupi</a>
-            <a href="#" class="mapbuttons" data-barangay="Del Pilar"><img src="delp.png">Del Pilar</a>
-            <a href="#" class="mapbuttons" data-barangay="Beberon"><img src="bebe.png">Beberon</a>
+            <a href="#" class="mapbuttons"><img src="bonimg.png">Bonifacio</a>
+            <a href="#" class="mapbuttons"><img src="lupi.png">Lupi</a>
+            <a href="#" class="mapbuttons"><img src="delp.png">Del Pilar</a>
+            <a href="#" class="mapbuttons"><img src="bebe.png">Beberon</a>
         </div>
         <div class="buttontwo">
-            <a href="#" class="mapbuttons" data-barangay="Rizal"><img src="rizimg.png">Rizal</a>
-            <a href="#" class="mapbuttons" data-barangay="Pinamasagan"><img src="pinimg.png">Pinamasagan</a>
-            <a href="#" class="mapbuttons" data-barangay="Bocal"><img src="bocimg.png">Bocal</a>
+            <a href="#" class="mapbuttons"><img src="rizimg.png">Rizal</a>
+            <a href="#" class="mapbuttons"><img src="pinimg.png">Pinamasagan</a>
+            <a href="#" class="mapbuttons"><img src="bocimg.png">Bocal</a>
         </div>
+        <!--note-->
+        <p class="note">Note: Above are the evacuation centers of San Fernando. Not all barangay have evacuation
+            centers.
+            Go to the nearest evacuation centers depending
+            on your location.</p>
     </div>
     <!--Result-->
     <!--bonifacio-->
-    <div class="resultcontainer">
+    <div class="result-container" id="result-bonifacio">
         <div class="infocontainer">
-            <h2 class="bonresultmain">Bonifacio Evacuation Center</h2>
             <img src="evacuation.jpg" class="bonevac" alt="Bonifacio Evacuation Center">
-            <h3 class="bonresultsub">Zone 5, Bonifacio San Fernando Camarines Sur</h3>
-            <h3 class="bonincharge">Person in charge: Name B. Surname</h3>
+            <h2 class="brgybontitle">Bonifacio</h2>
+            <h3 class="subbrgybontitle">Evacuation Center</h3>
+            <h4 class="brgybonadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onebonincharge">Person in-charge:</h3>
+            <h3 class="oneboninchargename">Name B. Surname</h3>
+            <h3 class="oneboninchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twobonincharge">Person in-charge:</h3>
+            <h3 class="twoboninchargename">Name B. Surname</h3>
+            <h3 class="twoboninchargenumber">09123354854</h3>
         </div>
     </div>
-    <!--note-->
-    <p class="note">Note: Above are the evacuation centers of San Fernando. Not all barangay have evacuation centers.
-        Go to the nearest evacuation centers depending
-        on your location.</p>
-    <!--map-->
+    <!--lupi-->
+    <div class="result-container" id="result-lupi">
+        <div class="infocontainer">
+            <img src="evacuation.jpg" class="bonevac" alt="Lupi Evacuation Center">
+            <h2 class="brgylupititle">Lupi</h2>
+            <h3 class="subbrgylupititle">Evacuation Center</h3>
+            <h4 class="brgylupiadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onelupiincharge">Person in-charge:</h3>
+            <h3 class="onelupiinchargename">Name B. Surname</h3>
+            <h3 class="onelupiinchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twolupiincharge">Person in-charge:</h3>
+            <h3 class="twolupiinchargename">Name B. Surname</h3>
+            <h3 class="twolupiinchargenumber">09123354854</h3>
+        </div>
+    </div>
+    <!--del pilar-->
+    <div class="result-container" id="result-delpilar">
+        <div class="infocontainer">
+            <img src="evacuation.jpg" class="bonevac" alt="Del Pilar Evacuation Center">
+            <h2 class="brgydelptitle">Del Pilar</h2>
+            <h3 class="subbrgydelptitle">Evacuation Center</h3>
+            <h4 class="brgydelpadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onedelpincharge">Person in-charge:</h3>
+            <h3 class="onedelpinchargename">Name B. Surname</h3>
+            <h3 class="onedelpinchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twodelpincharge">Person in-charge:</h3>
+            <h3 class="twodelpinchargename">Name B. Surname</h3>
+            <h3 class="twodelpinchargenumber">09123354854</h3>
+        </div>
+    </div>
+    <!--beberon-->
+    <div class="result-container" id="result-beberon">
+        <div class="infocontainer">
+            <img src="evacuation.jpg" class="bonevac" alt="Beberon Evacuation Center">
+            <h2 class="brgybebetitle">Beberon</h2>
+            <h3 class="subbrgybebetitle">Evacuation Center</h3>
+            <h4 class="brgybebeadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onebebeincharge">Person in-charge:</h3>
+            <h3 class="onebebeinchargename">Name B. Surname</h3>
+            <h3 class="onebebeinchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twobebeincharge">Person in-charge:</h3>
+            <h3 class="twobebeinchargename">Name B. Surname</h3>
+            <h3 class="twobebeinchargenumber">09123354854</h3>
+        </div>
+    </div>
+    <!--rizal-->
+    <div class="result-container" id="result-rizal">
+        <div class="infocontainer">
+            <img src="evacuation.jpg" class="bonevac" alt="Rizal Evacuation Center">
+            <h2 class="brgyriztitle">Rizal</h2>
+            <h3 class="subbrgyriztitle">Evacuation Center</h3>
+            <h4 class="brgyrizadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onebebeincharge">Person in-charge:</h3>
+            <h3 class="onebebeinchargename">Name B. Surname</h3>
+            <h3 class="onebebeinchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twobebeincharge">Person in-charge:</h3>
+            <h3 class="twobebeinchargename">Name B. Surname</h3>
+            <h3 class="twobebeinchargenumber">09123354854</h3>
+        </div>
+    </div>
+    <!--pinamasagan-->
+    <div class="result-container" id="result-pinamasagan">
+        <div class="infocontainer">
+            <img src="evacuation.jpg" class="bonevac" alt="Pinamasagan Evacuation Center">
+            <h2 class="brgypintitle">Pinamasagan</h2>
+            <h3 class="subbrgypintitle">Evacuation Center</h3>
+            <h4 class="brgypinadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onepinincharge">Person in-charge:</h3>
+            <h3 class="onepininchargename">Name B. Surname</h3>
+            <h3 class="onepininchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twopinincharge">Person in-charge:</h3>
+            <h3 class="twopininchargename">Name B. Surname</h3>
+            <h3 class="twopininchargenumber">09123354854</h3>
+        </div>
+    </div>
+     <!--bocal-->
+     <div class="result-container" id="result-bocal">
+        <div class="infocontainer">
+            <img src="evacuation.jpg" class="bonevac" alt="Bocal Evacuation Center">
+            <h2 class="brgyboctitle">Bocal</h2>
+            <h3 class="subbrgyboctitle">Evacuation Center</h3>
+            <h4 class="brgybocadd">Zone 5, Bonifacio San Fernando</h4>
+            <h5 class="landmark">Near Municipality of San Fernando</h5>
+            <!--first in charge-->
+            <h3 class="onebocincharge">Person in-charge:</h3>
+            <h3 class="onebocinchargename">Name B. Surname</h3>
+            <h3 class="onebocinchargenumber">09123354854</h3>
+            <!--2nd in charge-->
+            <h3 class="twobocincharge">Person in-charge:</h3>
+            <h3 class="twobocinchargename">Name B. Surname</h3>
+            <h3 class="twobocinchargenumber">09123354854</h3>
+        </div>
+    </div>
+    
+
 </body>
 
 </html>
