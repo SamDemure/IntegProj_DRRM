@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.top-content {
+    font-weight: bold;
+    white-space: normal;
+    width: 980px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 310px;
+    margin-top: 50px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 800px; /* Adjust the width of the container */
+}
+
+.image {
+    max-width: 150px;
+    margin: 10px;
+    display: block;
+}
+
+.image-caption,
+.subimage-caption {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.secondimage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 800px; /* Adjust the width of the container */
+}
+
+/*button next and back*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px !important;
+}
+
+.button-container img {
+    width: 50px; /* Adjust button size */
+    margin: 0 10px; /* Adjust spacing between buttons */
+    cursor: pointer;
+}

@@ -65,3 +65,10 @@ body {
     color: #820000; /* Change the color as desired */
 }
 
+#side-triangle{
+    position: absolute;
+    width: 900px;
+    height: 880px;
+    top: -40px;
+    right: -450px;
+}
