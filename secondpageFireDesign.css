@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.title{
+    color: #820000;
+    font-weight: bold;
+    font-size: 64px;
+    margin-left: 50px;
+}
+
+.sidetriangle {
+    position: fixed;
+    top: 60%;
+    right: -5px;
+    transform: translateY(-50%);
+}
+
+.sidetriangle img {
+    width: auto;
+    height: auto;
+}
+
+#first{
+    position: absolute;
+    top: 112px;
+    right: 0;
+    z-index: -1;
+    margin-top: 0;
+}
+
+#fuelicon{
+    position: absolute;
+    top: 50px;
+    right: 460px;
+    width: 120px;
+    height: auto;
+}
+
+.firsttext{
+    position: absolute;
+    top: 80px;
+    right: 140px;
+    color: white;
+    font-size: 48px;
+}
+
+.firstsub{
+    position: absolute;
+    top: 200px;
+    right: 170px;
+    font-size: 16px;
+    white-space: normal;
+    width: 450px;
+    text-align: right;
+}
+
+#second{
+    position: absolute;
+    top: 310px;
+    right: 160px;
+    z-index: -1;
+    margin-top: 0;
+}
+
+#heaticon{
+    position: absolute;
+    top: 240px;
+    right: 590px;
+    width: 120px;
+    height: auto;
+}
+
+.secondtext{
+    position: absolute;
+    top: 275px;
+    right: 320px;
+    color: white;
+    font-size: 48px;
+}
+
+.secondsub{
+    position: absolute;
+    top: 400px;
+    right: 320px;
+    font-size: 16px;
+    white-space: normal;
+    width: 460px;
+    text-align: right;
+}
+
+#third{
+    position: absolute;
+    top: 510px;
+    right: 310px;
+    z-index: -1;
+    margin-top: 0;
+}
+
+#oxygenicon{
+    position: absolute;
+    top: 470px;
+    right: 740px;
+    width: 120px;
+    height: auto;
+}
+
+.thirdtext{
+    position: absolute;
+    top: 470px;
+    right: 430px;
+    color: white;
+    font-size: 48px;
+}
+
+.thirdsub{
+    position: absolute;
+    top: 600px;
+    right: 490px;
+    font-size: 16px;
+    white-space: normal;
+    width: 460px;
+    text-align: right;
+}
+
+/*button next and back*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 550px !important;
+}
+
+.button-container img {
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}

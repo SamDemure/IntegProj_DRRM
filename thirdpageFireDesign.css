@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.title {
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.exting{
+    margin-left: 100px;
+}
+
+#lines{
+    position: absolute;
+    right: 600px;
+    top: 100px;
+}
+
+#circles{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px !important;
+}
+
+.button-container img {
+    width: 50px;
+    margin: 0 10px; 
+    cursor: pointer;
+}
