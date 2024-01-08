@@ -179,6 +179,7 @@ h2 {
 .mdrrmcn {
   text-align: center;
   font-weight: bold;
+  width: 100%;
 }
 
 .container{
@@ -192,7 +193,7 @@ h2 {
   text-align: center;
   width: 400px;
   padding: 10px;
-  left: 520px;
+  left: 590px;
 }
 
 .mdrrmoNum {
@@ -210,7 +211,7 @@ h2 {
   width: 300px;
   text-align: center;
   margin-left: -25px;
-  margin-top: 60px;
+  margin-top: 20px;
   white-space: normal;
 }
 
@@ -218,14 +219,14 @@ h2 {
 .bfpcn {
   margin-left: 100px;
   margin-right: 60px;
-  margin-top: 60px;
+  margin-top: 20px;
   text-align: center;
 }
 /*fourth contact number, amb*/
 .ambcn{
   text-align: center;
   margin-left: 50px;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-right: 20px;
 }
 
@@ -233,6 +234,14 @@ h2 {
 .rhucn{
   text-align: center;
   margin-left: 100px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
+.mdrrmcn img,
+.pnpcn img,
+.bfpcn img,
+.ambcn img,
+.rhucn img {
+    width: 80px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
