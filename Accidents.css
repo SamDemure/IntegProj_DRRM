@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+#titleimg {
+    border-radius: 10px;
+    height: 100px;
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    margin-left: 260px;
+    font-size: 60px;
+    z-index: 2;
+    margin-top: -95px;
+}
+
+#iconaccident {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    margin-left: -550px;
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+
+#next-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 800px;
+    top: calc(17% - 25px);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.meaning {
+    width: 50%;
+    padding: 0 20px;
+    white-space: normal;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -140px;
+    margin-top: -20px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.imgcontainer {
+    position: absolute;
+    right: 650px;
+    top: 200px;
+    width: 100px;
+    height: auto;
+}
+
+.side {
+    position: absolute;
+    left: -5px;
+    width: 100px;
+    height: auto;
+    top: 10px;
+}
+
+.grayrectangle {
+    background-color: #d2d2d2;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    margin-left: 700px;
+    padding: 10px;
+}
+
+.subcontent {
+    font-size: 21px;
+    margin-top: 13px;
+}

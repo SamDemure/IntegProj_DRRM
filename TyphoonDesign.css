@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.title-container{
+    margin-top: -20px ;
+}
+
+#titleimg {
+    border-radius: 10px;
+    height: 100px;
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    margin-left: 260px;
+    font-size: 60px;
+    z-index: 2;
+    margin-top: -95px;
+}
+
+#icontyphoon {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    margin-left: -550px;
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+
+#next-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 800px;
+    top: calc(17% - 45px);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.meaning {
+    width: 100%;
+    padding: 0 20px;
+    white-space: normal;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -140px;
+    margin-top: -30px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.red-rectangle {
+    width: 600px;
+    height: 250px;
+    background-color: #820000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.gray-rectangle {
+    width: 600px;
+    height: 250px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 900px;
+
+}
+
+.redrectangle-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.grayrectangle-text {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+}
